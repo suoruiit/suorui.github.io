@@ -1,0 +1,102 @@
+<!doctype html>
+<html class="no-js">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="">
+    <meta name="keywords" content="">
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <title>问卷二</title>
+
+    <!-- Set render engine for 360 browser -->
+    <meta name="renderer" content="webkit">
+
+    <!-- No Baidu Siteapp-->
+    <meta http-equiv="Cache-Control" content="no-siteapp"/>
+
+    <link rel="icon" type="image/png" href="assets/images/favicon.png">
+
+    <!-- Add to homescreen for Chrome on Android -->
+    <meta name="mobile-web-app-capable" content="yes">
+    <link rel="icon" sizes="192x192" href="assets/images/app-icon72x72@2x.png">
+
+    <!-- Add to homescreen for Safari on iOS -->
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <meta name="apple-mobile-web-app-title" content="Amaze UI"/>
+    <link rel="apple-touch-icon-precomposed" href="assets/images/app-icon72x72@2x.png">
+
+    <!-- Tile icon for Win8 (144x144 + tile color) -->
+    <meta name="msapplication-TileImage" content="assets/i/app-icon72x72@2x.png">
+    <meta name="msapplication-TileColor" content="#0e90d2">
+
+    <link rel="stylesheet" href="assets/css/amazeui.min.css">
+    <link rel="stylesheet" href="assets/css/app.css">
+</head>
+<body>
+<div class="am-container">
+    <img class="am-img-responsive" src="assets/images/question2/progress.png">
+
+    <div class="am-g">
+        <div class="am-u-md-4 am-u-sm-4 faceShape1">
+            <input type="radio" id="a" name="faceShape" value="1" hidden><label for="a"><a href="javascript:;"
+                                                                                           onclick="$('#a').attr('checked',true);$('#b,#c,#d,#e,#f').attr('checked',false);"><img
+                class="am-img-responsive radioChange" src="assets/images/question2/7.png"></a></label>
+            <p class="faceShape">圆形</p>
+        </div>
+        <div class="am-u-md-4 am-u-sm-4 faceShape2">
+            <input type="radio" id="b" name="faceShape" value="2" hidden><label for="b"><a href="javascript:;"
+                                                                                           onclick="$('#b').attr('checked',true);$('#a,#c,#d,#e,#f').attr('checked',false);"><img
+                class="am-img-responsive radioChange" src="assets/images/question2/8.png"></a></label>
+            <p class="faceShape">菱形</p>
+        </div>
+        <div class="am-u-md-4 am-u-sm-4 faceShape3">
+            <input type="radio" id="c" name="faceShape" value="3" hidden><label for="c"><a href="javascript:;"
+                                                                                           onclick="$('#c').attr('checked',true);$('#b,#a,#d,#e,#f').attr('checked',false);"><img
+                class="am-img-responsive radioChange" src="assets/images/question2/9.png"></a></label>
+            <p class="faceShape">心形</p>
+        </div>
+        <div class="am-u-md-4 am-u-sm-4 faceShape4">
+            <input type="radio" id="d" name="faceShape" value="4" hidden><label for="d"><a href="javascript:;"
+                                                                                           onclick="$('#d').attr('checked',true);$('#b,#c,#a,#e,#f').attr('checked',false);"><img
+                class="am-img-responsive radioChange" src="assets/images/question2/10.png"></a></label>
+            <p class="faceShape">三角形</p>
+        </div>
+        <div class="am-u-md-4 am-u-sm-4 faceShape5">
+            <input type="radio" id="e" name="faceShape" value="5" hidden><label for="e"><a href="javascript:;"
+                                                                                           onclick="$('#e').attr('checked',true);$('#b,#c,#d,#a,#f').attr('checked',false);"><img
+                class="am-img-responsive radioChange" src="assets/images/question2/11.png"></a></label>
+            <p class="faceShape">椭圆形</p>
+        </div>
+        <div class="am-u-md-4 am-u-sm-4 faceShape6">
+            <input type="radio" id="f" name="faceShape" value="6" hidden><label for="f"><a href="javascript:;"
+                                                                                           onclick="$('#f').attr('checked',true);$('#b,#c,#d,#e,#a').attr('checked',false)"><img
+                class="am-img-responsive radioChange" src="assets/images/question2/12.png"></a></label>
+            <p class="faceShape">长方形</p>
+        </div>
+    </div>
+
+    <div class="am-g">
+        <div class="am-u-md-4 am-u-sm-4">
+            <img class="am-img-responsive img-pre" src="assets/images/question1/Path 287.png">
+            <button id="PreButton">上一步</button>
+        </div>
+        <div class="am-u-md-8 am-u-sm-8">
+            <button id="NextButton">下一步</button>
+        </div>
+    </div>
+</div>
+
+<!--[if (gte IE 9)|!(IE)]><!-->
+<script src="assets/js/jquery.min.js"></script>
+<!--<![endif]-->
+<!--[if lte IE 8 ]>
+<script src="http://libs.baidu.com/jquery/1.11.3/jquery.min.js"></script>
+<script src="http://cdn.staticfile.org/modernizr/2.8.3/modernizr.js"></script>
+<script src="assets/js/amazeui.ie8polyfill.min.js"></script>
+<![endif]-->
+<script src="assets/js/amazeui.min.js"></script>
+<script src="assets/js/app.js"></script>
+</body>
+</html>

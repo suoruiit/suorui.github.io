@@ -1,0 +1,115 @@
+<!doctype html>
+<html class="no-js">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="">
+    <meta name="keywords" content="">
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <title>问卷四</title>
+
+    <!-- Set render engine for 360 browser -->
+    <meta name="renderer" content="webkit">
+
+    <!-- No Baidu Siteapp-->
+    <meta http-equiv="Cache-Control" content="no-siteapp"/>
+
+    <link rel="icon" type="image/png" href="assets/images/favicon.png">
+
+    <!-- Add to homescreen for Chrome on Android -->
+    <meta name="mobile-web-app-capable" content="yes">
+    <link rel="icon" sizes="192x192" href="assets/images/app-icon72x72@2x.png">
+
+    <!-- Add to homescreen for Safari on iOS -->
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <meta name="apple-mobile-web-app-title" content="Amaze UI"/>
+    <link rel="apple-touch-icon-precomposed" href="assets/images/app-icon72x72@2x.png">
+
+    <!-- Tile icon for Win8 (144x144 + tile color) -->
+    <meta name="msapplication-TileImage" content="assets/i/app-icon72x72@2x.png">
+    <meta name="msapplication-TileColor" content="#0e90d2">
+
+    <link rel="stylesheet" href="assets/css/amazeui.min.css">
+    <link rel="stylesheet" href="assets/css/app.css">
+
+</head>
+<body>
+
+<div class="am-container">
+    <img class="am-img-responsive" src="assets/images/question4/progress.png">
+
+    <div class="am-g">
+        <div class="am-u-md-4 am-u-sm-4 model1">
+            <input type="radio" id="a" name=" model" value="1" hidden><label for="a"><a href="javascript:;"
+                                                                                        onclick="$('#a').attr('checked',true);$('#b,#c').attr('checked',false);"><img
+                class="am-img-responsive radioChange" src="assets/images/question4/normal.png"></a></label>
+        </div>
+        <div class="am-u-md-4 am-u-sm-4  model2">
+            <input type="radio" id="b" name=" model" value="2" hidden><label for="b"><a href="javascript:;"
+                                                                                        onclick="$('#b').attr('checked',true);$('#a,#c').attr('checked',false);"><img
+                class="am-img-responsive radioChange" src="assets/images/question4/normal2.png"></a></label>
+        </div>
+        <div class="am-u-md-4 am-u-sm-4  model3">
+            <input type="radio" id="c" name=" model" value="3" hidden><label for="c"><a href="javascript:;"
+                                                                                        onclick="$('#c').attr('checked',true);$('#a,#b').attr('checked',false);"><img
+                class="am-img-responsive radioChange" src="assets/images/question4/normal3.png"></a></label>
+        </div>
+
+        <div class="am-u-md-4 am-u-sm-4  model4">
+            <input type="radio" id="d" name=" mode2" value="4" hidden><label for="d"><a href="javascript:;"
+                                                                                        onclick="$('#d').attr('checked',true);$('#e,#f').attr('checked',false);"><img
+                class="am-img-responsive radioChange1" src="assets/images/question4/slim.png"></a></label>
+        </div>
+        <div class="am-u-md-4 am-u-sm-4  model5">
+            <input type="radio" id="e" name=" mode2" value="5" hidden><label for="e"><a href="javascript:;"
+                                                                                        onclick="$('#e').attr('checked',true);$('#d,#f').attr('checked',false);"><img
+                class="am-img-responsive radioChange1" src="assets/images/question4/slim2.png"></a></label>
+        </div>
+        <div class="am-u-md-4 am-u-sm-4  model6">
+            <input type="radio" id="f" name=" mode2" value="6" hidden><label for="f"><a href="javascript:;"
+                                                                                        onclick="$('#f').attr('checked',true);$('#d,#e').attr('checked',false)"><img
+                class="am-img-responsive radioChange1" src="assets/images/question4/slim3.png"></a></label>
+        </div>
+
+        <div class="am-u-md-4 am-u-sm-4  model7">
+            <input type="radio" id="g" name=" mode3" value="7" hidden><label for="g"><a href="javascript:;"
+                                                                                        onclick="$('#g').attr('checked',true);$('#h,#i').attr('checked',false);"><img
+                class="am-img-responsive radioChange2" src="assets/images/question4/superslim.png"></a></label>
+        </div>
+        <div class="am-u-md-4 am-u-sm-4  model8">
+            <input type="radio" id="h" name=" mode3" value="8" hidden><label for="h"><a href="javascript:;"
+                                                                                        onclick="$('#h').attr('checked',true);$('#g,#i').attr('checked',false);"><img
+                class="am-img-responsive radioChange2" src="assets/images/question4/superslim2.png"></a></label>
+        </div>
+        <div class="am-u-md-4 am-u-sm-4  model9">
+            <input type="radio" id="i" name=" mode3" value="9" hidden><label for="i"><a href="javascript:;"
+                                                                                        onclick="$('#i').attr('checked',true);$('#g,#h').attr('checked',false);"><img
+                class="am-img-responsive radioChange2" src="assets/images/question4/superslim3.png"></a></label>
+        </div>
+
+    </div>
+
+    <div class="am-g">
+        <div class="am-u-md-4 am-u-sm-4">
+            <img class="am-img-responsive img-pre-4" src="assets/images/question1/Path 287.png">
+            <button id="PreButton-4">上一步</button>
+        </div>
+        <div class="am-u-md-8 am-u-sm-8">
+            <button id="NextButton-4">下一步</button>
+        </div>
+    </div>
+</div>
+<!--[if (gte IE 9)|!(IE)]><!-->
+<script src="assets/js/jquery.min.js"></script>
+<!--<![endif]-->
+<!--[if lte IE 8 ]>
+<script src="http://libs.baidu.com/jquery/1.11.3/jquery.min.js"></script>
+<script src="http://cdn.staticfile.org/modernizr/2.8.3/modernizr.js"></script>
+<script src="assets/js/amazeui.ie8polyfill.min.js"></script>
+<![endif]-->
+<script src="assets/js/amazeui.min.js"></script>
+<script src="assets/js/app.js"></script>
+</body>
+</html>
